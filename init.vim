@@ -12,10 +12,12 @@
 """"""""""""""""""""""
 "KEYBINDS"""""""""""""
 """"""""""""""""""""""
-nnoremap <space>q :q<CR>
-nnoremap <space>s :w<CR>
-nnoremap <space>e :Lexplore<CR>
+nnoremap <space>q :q<cr>
+nnoremap <space>s :w<cr>
+nnoremap <space>e :Lexplore<cr>
+nnoremap <S-u> :redo<cr>
 inoremap jk <esc>
+
 
 """"""""""""""""""""""
 "PLUGS"""""""""""""
