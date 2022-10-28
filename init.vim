@@ -24,8 +24,8 @@ inoremap jk <esc>
 """"""""""""""""""""""
 call plug#begin()
 	Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
-	Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 	Plug 'jiangmiao/auto-pairs' " Retro Scheme
+	Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 call plug#end()
 
-colorscheme jellybeans
+"colorscheme catppuccin_mocha
