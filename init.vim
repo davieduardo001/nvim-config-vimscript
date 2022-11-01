@@ -8,6 +8,7 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
+:set clipboard=unnamedplus
 
 """"""""""""""""""""""
 "KEYBINDS"""""""""""""
@@ -18,14 +19,13 @@ nnoremap <space>e :Lexplore<cr>
 nnoremap <S-u> :redo<cr>
 inoremap jk <esc>
 
-
 """"""""""""""""""""""
 "PLUGS"""""""""""""
 """"""""""""""""""""""
 call plug#begin()
 	Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
-	Plug 'jiangmiao/auto-pairs' " Retro Scheme
-	Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+	Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
-"colorscheme catppuccin_mocha
+"THEMES: desert, industry, koehler, murphy, pablo and ron 
+colorscheme murphy
